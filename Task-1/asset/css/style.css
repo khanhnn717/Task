@@ -98,7 +98,7 @@
 .main__container--midContent{
     text-align: center;
     background-color: #f6f6f6;
-    padding: 20px;
+    padding: 15px;
     font-size: 11.5pt;
 }
 
@@ -107,4 +107,51 @@
     background-image: url(../images/features.png);
     width: 100%;
     height: 268px;
+}
+
+/* Customer */
+.main__container--customer{
+    width: 100%;
+    height: auto;
+    background-color: #f6f6f6;
+}
+
+/* Customer_images */
+.main__container--customer-user{
+    padding-top: 15px;
+}
+
+/* Customer_contents */
+.main__container--customer-content{
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+.Content-2{
+    padding-bottom: 10px;
+}
+/* Customer_celeb */
+.main__container--customer-celeb{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.celeb-img{
+    padding-left: 5px;  
+    padding-right: 5px;
+}
+
+.celeb-img p{
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Customer feedback */
+.main__container--customer-feedback{
+    background-image: url(../images/feedback.png);
+    width: 100%;
+    height: 463px;
 }
