@@ -1,0 +1,4 @@
+Quy tắc comment
+    - Sử dụng "_" thay cho " ".
+    - Comment cha luôn ở số ít.
+    - Comment phụ luôn ở số nhiều.

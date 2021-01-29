@@ -1,0 +1,98 @@
+/* Banner */
+/* Images */
+.main__container--banner-img{
+    background-image: url(../images/banner.png);
+    width: 329px;
+    height: 329px;
+    size: 329px;
+}
+
+/* Contents */
+.main__container--banner-contents{
+    width: 65%;
+    height: 329px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main__container--banner-basic-contents{
+    color: #4d4d4d;
+    padding-bottom:10px;
+}
+
+.main__container--banner-span-contents{
+    color: #4d4d4d;
+}
+
+.first-span{
+    padding-top: 20px;
+}
+
+.main__container--banner-countdown-contents{
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 15px;
+}
+
+.main__container--banner-button{
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin-top: 15px;
+    background: #fa6400;
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+}
+
+/* Text_arena */
+/* Contents */
+.main__container--textarena-contents{
+    width: 60%;
+    height: 70%;
+    text-align: justify;
+    font-size: 10pt;
+    margin-left:50px;
+    margin-top: 50px;
+}
+
+.main__container--textarena-contents p:first-child{
+    margin-bottom: 15px;
+    font-size: 14.5pt;
+    font-weight: bolder;
+}
+
+.main__container--textarena-contents p{
+    padding-bottom: 15px;
+}
+
+/* Images */
+.main__container--textarena-image{
+    width: 40%;
+    margin: 0;
+}
+.main__container--textarena-image-i{
+    background-image: url(../images/user.png);
+    width: 218px;
+    height: 328px;
+    size: 218px;
+    margin: 0 auto;
+}
+
+/* Footers */
+.main__container--textarena-footer{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Discount */
+.main__container--discount{
+    background-image: url(../images/discount.png);
+    width: 938px;
+    height: 465px;
+    size: 100%;
+}
