@@ -1,9 +1,8 @@
 /* Banner */
 /* Images */
 .main__container--banner-img{
-    background-image: url(../images/banner.png);
-    width: 329px;
-    height: 329px;
+    width: 35%;
+    height: auto;
 }
 
 /* Contents */
@@ -88,7 +87,7 @@
 .main__container--textarena-footer{
     width: 100%;
     height: auto;
-    padding: 20px;
+    padding: 20px 0 20px 0;
     text-align: center;
 }
 
@@ -224,7 +223,13 @@
     }
 
     .main__container--banner-img{
+        width: 100%;
         margin: 0 auto;
+    }
+
+    .main__container--banner-image{
+        width: 100%;
+        height: auto;
     }
 
     .main__container--banner-contents{
@@ -271,7 +276,6 @@
     /* Discount */
     .main__container--discount{
         width: 100%;
-        
         background-image: none;
         display: flex;
         flex-direction: column;
@@ -280,24 +284,15 @@
 
     .main__container--discount{
         width: 100%;
-        
     }
     
     .main__container--discount-image{
         width: 100%;
-        
-        size: 375px;
-    }
-
-    /* Feature */
-    .main__container--feature-image{
-        
     }
 
     /* Customer */
     .main__container--customer-userimg{
-        width: 100%;
-        
+        width: 100%;    
     }
 
     /* Celeb */
@@ -307,11 +302,6 @@
 
     .celeb-img{
         padding-bottom: 15px;
-    }
-
-    /* Feedback */
-    .main__container--customer-feedback{
-        
     }
 
     /* Shipment */
@@ -332,11 +322,6 @@
         width: 100%;
         padding-top: 15px;
     }
-
-    /* Footer */
-    .main__footer--image{
-        
-    }
 }
 
 /* Ipad */
@@ -348,10 +333,19 @@
 
     .main .main__container{
         width: 100%;
-   
     }
     
     /* Banner */
+
+    .main__container--banner-img{
+        width: 35%;
+    }
+
+    .main__container--banner-image{
+        width: 100%;
+        height: auto;
+    }
+
     .main__container--banner-bold-contents{
         text-align: center;
     }
@@ -359,19 +353,15 @@
     /* Discount */
     .main__container--discount{
         width: 100%;
-        
     }
     
     .main__container--discount-image{
         width: 100%;
-        size: 375px;
     }
-
 
     /* Customer */
     .main__container--customer-userimg{
         width: 100%;
-        
     }
 
     /* Celeb */
