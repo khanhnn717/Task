@@ -31,3 +31,7 @@ body{
 .main__container--textarena-contentAndImage{
     display: flex;
 }
+
+#orange_text{
+    color: #fa6400;
+}
