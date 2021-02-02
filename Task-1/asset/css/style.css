@@ -269,8 +269,7 @@
 
     .main__container--textarena-footer{
         width: 100%;
-        padding: 25px 0px;
-        font-size: 13pt;
+        font-size: 11pt;
     }
 
     /* Discount */
@@ -311,6 +310,7 @@
 
     .main__container--customer-shipment-content{
         width: 100%;
+        font-size: 11pt;
         padding: 0;
     }
         
