@@ -100,7 +100,7 @@
 
 .main__container--discount-image{
     width: 938px;
-    height: 465px;
+    height: auto;
 }
 
 /* Mid_content */
@@ -114,7 +114,7 @@
 /* Feature_image */
 .main__container--feature-image{
     width: 100%;
-    height: 268px;
+    height: auto;
 }
 
 /* Customer */
@@ -125,8 +125,9 @@
 }
 
 /* Customer_images */
-.main__container--customer-user{
+.main__container--customer-userimg{
     padding-top: 15px;
+    height: auto;
 }
 
 /* Customer_contents */
@@ -160,7 +161,7 @@
 /* Customer feedback */
 .main__container--customer-feedback{
     width: 100%;
-    height: 463px;
+    height: auto;
 }
 
 /* Shipment */
@@ -195,22 +196,20 @@
 }
 
 #main__container--customer-shipment-img{
-    background-image: url(../images/ship.png);
-    background-repeat: no-repeat;
     width: 100%;
-    height: 404px;
+    height: auto;
 }
 
 /* Footer image */
 .main__footer--image{
     width: 100%;
-    height: 1022px;
+    height: auto;
 }
 
 /* Respone */
 /* IP6 */
 @media only screen and (min-width: 375px) and (max-width: 767px){
-    .main{
+    body .main{
         width: 100%;
     }
 
@@ -272,7 +271,7 @@
     /* Discount */
     .main__container--discount{
         width: 100%;
-        height: auto;
+        
         background-image: none;
         display: flex;
         flex-direction: column;
@@ -281,24 +280,27 @@
 
     .main__container--discount{
         width: 100%;
-        height: auto;
+        
     }
     
     .main__container--discount-image{
         width: 100%;
-        height: auto;
+        
         size: 375px;
     }
 
+    /* Feature */
     .main__container--feature-image{
-        height: auto;
+        
     }
 
+    /* Customer */
     .main__container--customer-userimg{
         width: 100%;
-        height: auto;
+        
     }
 
+    /* Celeb */
     .main__container--customer-celeb{
         flex-direction: column;
     }
@@ -307,10 +309,12 @@
         padding-bottom: 15px;
     }
 
+    /* Feedback */
     .main__container--customer-feedback{
-        height: auto;
+        
     }
 
+    /* Shipment */
     .main__container--customer-shipment{
         flex-direction: column;
     }
@@ -329,7 +333,53 @@
         padding-top: 15px;
     }
 
+    /* Footer */
     .main__footer--image{
-        height: auto;
+        
+    }
+}
+
+/* Ipad */
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    body .main{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main .main__container{
+        width: 100%;
+   
+    }
+    
+    /* Banner */
+    .main__container--banner-bold-contents{
+        text-align: center;
+    }
+
+    /* Discount */
+    .main__container--discount{
+        width: 100%;
+        
+    }
+    
+    .main__container--discount-image{
+        width: 100%;
+        size: 375px;
+    }
+
+
+    /* Customer */
+    .main__container--customer-userimg{
+        width: 100%;
+        
+    }
+
+    /* Celeb */
+    .celeb-img{
+        width: 100%;
+    }
+
+    .celeb-img img{
+        width: 100%;
     }
 }
